@@ -1,0 +1,17 @@
+Package: Rnanoflann
+Type: Package
+Title: nanoflann for R
+Version: 0.1
+Date: 2013-10-17
+Author: Thomas J.R. Finnie 
+Maintainer: <Thomas.Finnie@PHE.govuk> 
+Description: An Rish interface to the nanoflann library. Provides a N dimensional 
+ index tree to R using the nanoflann library
+License: BSD 
+Depends: methods, Rcpp (>= 0.10.3), R (>= 3.0.0)
+LinkingTo: Rcpp
+RcppModules: ndIndex
+BuildVignettes: no 
+BuildManual: yes 
+LazyData: no 
+BuildResaveData: no 
