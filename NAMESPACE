@@ -1,3 +1,4 @@
 useDynLib(Rnanoflann)
-exportPattern("^[[:alpha:]]+")
-import( Rcpp )
+export(createIndex)
+#exportPattern("^[[:alpha:]]+")
+import(Rcpp)

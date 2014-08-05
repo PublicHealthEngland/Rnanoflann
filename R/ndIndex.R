@@ -13,12 +13,12 @@
 #' @example 
 #' #trivial example to show that distance and indexing works
 #' index <- createIndex(matrix(c(0,0,3,4),ncol=2,byrow=T))
-#' index$findNeighbors( c(0,3), 2)
+#' index$findNeighbors( c(0,3), 2, TRUE)
 #' 
 #' #now a million point index (takes about 2 seconds to build)
 #' index <- createIndex(matrix(runif(2E6),ncol=2,byrow=T))
 #' #find the 5 nearest points to (0.5, 0.5) (hopefully very, very fast!)
-#' index$findNeighbors( c(0.5 , 0.5), 5)
+#' index$findNeighbors( c(0.5 , 0.5), 5, FALSE)
 #' @export
 createIndex<-function(dataMatrix){
 	#make sure that the data is a matrix
