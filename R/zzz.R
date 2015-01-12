@@ -11,6 +11,7 @@
 ## a load action, so this does not have to be placed in .onLoad() or evalqOnLoad().
 ##loadModule("mod_ndIndex", TRUE)
 
-.onLoad <- function(libname, pkgname){
-	#loadRcppModules()
-}
+## .onLoad <- function(libname, pkgname){
+##     #loadRcppModules()
+## }
+loadModule("ndIndex", TRUE)
