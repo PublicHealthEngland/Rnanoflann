@@ -12,5 +12,5 @@
 ##loadModule("mod_ndIndex", TRUE)
 
 .onLoad <- function(libname, pkgname){
-	loadRcppModules()
+	#loadRcppModules()
 }

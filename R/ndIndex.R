@@ -2,6 +2,7 @@
 # 
 # Author: tomf
 ###############################################################################
+
 #' Create a new ndIndex
 #' 
 #' Create an index on a numeric matrix. Each row is a record, each column is a
@@ -10,7 +11,7 @@
 #' @description Once created the findNeighbors property can be used to search
 #'  this is a function that takes a point (with the same dimensionality as the
 #'  index) and the number of points to return. 
-#' @example 
+#' @examples 
 #' #trivial example to show that distance and indexing works
 #' index <- createIndex(matrix(c(0,0,3,4),ncol=2,byrow=T))
 #' index$findNeighbors( c(0,3), 2, TRUE)
